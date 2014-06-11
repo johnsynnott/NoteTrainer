@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.quarter {
+	height: 200px;
+	width: 200px;
+	border: 10px solid;
+	margin-bottom: 20px;
+}
+
+#box {
+	width: 460px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#colLeft {
+	float: left;
+	margin-right: 20px;
+}
+
+#colRight {
+	float: right;
+}
+
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#note {
+	height: 300px;
+	width: 600px;
+}
+
+#noteQuarter {
+	border-color: #faebcc;
+	background-color: #fcf8e3;
+}
+
+#guessQuarter {
+	border-color: #bce8f1;
+	background-color: #d9edf7;
+	color: #a94442;
+	font-size: 175px;
+}
+
+#correctQuarter {
+	border-color: #d6e9c6;
+	background-color: #dff0d8;
+	font-size: 175px;
+	color: #3c763d;
+}
+
+#wrongQuarter {
+	border-color: #ebccd1;
+	background-color: #f2dede;
+	font-size: 80px;
+	color: #a94442;
+	padding-top: 50px;
+	height: 150px
+}
